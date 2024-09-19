@@ -35,7 +35,7 @@ db.mongoose
   });
 
 app.get("/", (req, res) => {
-    res.send("Hola desde Render");
+    res.send("Hola desde Render Pacha 2024-05");
 });
 
 require("./app/routes/auth.routes")(app);
